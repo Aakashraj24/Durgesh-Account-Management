@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    background: white;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 0px 10px #aaa;
+    border-radius: 0px;
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #444;
+    color: white;
+}
+
+tfoot tr {
+    background: #333;
+    color: white;
+}
+
+/* === Responsive Design === */
+
+/* For Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+/* For Mobile Phones (max-width: 768px) */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap; /* Prevents text wrapping */
+    }
+
+    th, td {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
+
+/* For Small Phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    th, td {
+        padding: 5px;
+        font-size: 11px;
+    }
+}
