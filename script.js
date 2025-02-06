@@ -32,3 +32,19 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Error fetching data:", error));
 });
+let a4page = document.querySelector('#capture');
+let jpgButton = document.querySelector("#imgButton");
+jpgButton.addEventListener('click',()=>{
+        html2canvas(document.querySelector("#capture"), {
+            scale: 3,  // Increases resolution for better quality
+            backgroundColor: null, // Keeps background transparent (or set a color)
+            useCORS: true, // Allows cross-origin images
+        }).then(canvas => {
+            let imgData = canvas.toDataURL("image/jpeg", 1.0); // High-quality JPG
+
+            let link = document.createElement("a");
+            link.download = "Durgesh_Account_Management.jpg";
+            link.href = imgData;
+            link.click();
+        });
+})
