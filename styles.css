@@ -48,3 +48,16 @@ tfoot tr {
     background: #333;
     color: white;
 }
+#imgButton{
+    outline: none;
+    position: fixed;
+    bottom: 5%;
+    left: 60%;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid blue;
+    background-color: rgb(93, 93, 231);
+}
+
