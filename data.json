@@ -29,4 +29,58 @@
   {"date": "05-February-2025", "time": "06:08 PM", "name": "Mohammad Ahamad", "amount": "₹ 2000", "status": "Sent"},
   {"date": "05-February-2025", "time": "06:40 PM", "name": "Mohammad Ahamad", "amount": "₹ 1000", "status": "Received"},
   {"date": "05-February-2025", "time": "06:46 PM", "name": "Mohammad Ahamad", "amount": "₹ 500", "status": "Received"}
+  {
+  "date": "9-February-2025",
+  "time": "05:08 PM",
+  "name": "Rajbhar Rampatan Baliram",
+  "amount": "₹ 1000",
+  "status": "Received"
+},
+{
+  "date": "10-February-2025",
+  "time": "05:12 PM",
+  "name": "Prem kundlik mohol",
+  "amount": "₹ 2000",
+  "status": "Received"
+},
+{
+  "date": "10-February-2025",
+  "time": "08:46 PM",
+  "name": "Durgesh Rajbhar ( AC )",
+  "amount": "₹ 3000",
+  "status": "Sent"
+},
+{
+  "date": "11-February-2025",
+  "time": "06:49 PM",
+  "name": "Mobile Recharge - 9670174029",
+  "amount": "₹ 199",
+  "status": "Sent"
+},
+{
+  "date": "14-February-2025",
+  "time": "02:25 PM",
+  "name": "Saili Sonam Lama",
+  "amount": "₹ 470",
+  "status": "Sent"
+},
+{
+  "date": "14-February-2025",
+  "time": "02:42 PM",
+  "name": "Pawnesh Kumar So Kailash Ram",
+  "amount": "₹ 470",
+  "status": "Sent"
+},{
+  "date": "14-February-2025",
+  "time": "06:37 PM",
+  "name": "Salman Jabbar Mulani",
+  "amount": "₹ 30",
+  "status": "Sent"
+},{
+  "date": "15-February-2025",
+  "time": "08:28 AM",
+  "name": "Prem kundlik mohol",
+  "amount": "₹ 1500",
+  "status": "Sent"
+  }
 ]
