@@ -51,7 +51,7 @@ tfoot tr {
 #imgButton{
     outline: none;
     position: fixed;
-    bottom: 5%;
+    bottom: 10%;
     left: 60%;
     font-size: 30px;
     border-radius: 10px;
