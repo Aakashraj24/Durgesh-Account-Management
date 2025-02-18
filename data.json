@@ -138,11 +138,12 @@
   "name": "Salman Jabbar Mulani",
   "amount": "₹ 30",
   "status": "Sent"
-},{
-  "date": "15-February-2025",
-  "time": "08:28 AM",
-  "name": "Prem kundlik mohol",
-  "amount": "₹ 1500",
+},
+  {
+  "date": "16-February-2025",
+  "time": "07:46 AM",
+  "name": "Rajkumar Rajbhar",
+  "amount": "₹ 500",
   "status": "Sent"
   }
   ,
@@ -153,6 +154,15 @@
   "amount": "₹ 300",
   "status": "Received"
   },
+  
+  {
+  "date": "15-February-2025",
+  "time": "08:28 AM",
+  "name": "Prem kundlik mohol",
+  "amount": "₹ 1500",
+  "status": "Sent"
+  }
+  ,
   {
   "date": "17-February-2025",
   "time": "01:14 AM",
